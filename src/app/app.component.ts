@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
+  images: string[] = [
+    'https://images.unsplash.com/photo-1496316778157-e826f5bb47f2?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=f221991eeab09a9b12c98afdce2f1199&auto=format&fit=crop&w=1355&q=80',
+    'https://images.unsplash.com/photo-1471874276752-65e2d717604a?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=d89f633e450817a42ddfaa45de0c0748&auto=format&fit=crop&w=1350&q=80',
+    'https://images.unsplash.com/photo-1477884213360-7e9d7dcc1e48?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=f1ca1d883d6523669e6af0a68c7069ef&auto=format&fit=crop&w=1350&q=80'
+  ];
 }
